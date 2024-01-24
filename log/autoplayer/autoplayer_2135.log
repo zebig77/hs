@@ -1,0 +1,245 @@
+Active player = Titou
+--> Titou/Malfurion Stormrage Mana=1 Hlt=30 Att=0 Arm=0 Hnd=4 Dck=26 Min=0 Sec=0
+Opponent = Didier
+--> Didier/Garrosh Hellscream Mana=0 Hlt=30 Att=0 Arm=0 Hnd=5 Dck=26 Min=0 Sec=0
+
+NEXT_TURN
+
+Didier PLAY_CARD id=162 // name='The Coin' cost=0 text='Gain 1 Mana Crystal this turn only.'
+--> Didier/Garrosh Hellscream Mana=2 Hlt=30 Att=0 Arm=0 Hnd=5 Dck=25 Min=0 Sec=0
+--> Titou/Malfurion Stormrage Mana=1 Hlt=30 Att=0 Arm=0 Hnd=4 Dck=26 Min=0 Sec=0
+
+Didier USE_HERO_POWER power=''Armor Up!' power'
+--> Didier/Garrosh Hellscream Mana=0 Hlt=30 Att=0 Arm=2 Hnd=5 Dck=25 Min=0 Sec=0
+--> Titou/Malfurion Stormrage Mana=1 Hlt=30 Att=0 Arm=0 Hnd=4 Dck=26 Min=0 Sec=0
+
+NEXT_TURN
+
+Titou PLAY_CARD id=133 // name='Innervate' cost=0 text='Gain 2 Mana Crystals this turn only.'
+--> Titou/Malfurion Stormrage Mana=4 Hlt=30 Att=0 Arm=0 Hnd=4 Dck=25 Min=0 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=30 Att=0 Arm=2 Hnd=5 Dck=25 Min=0 Sec=0
+
+Titou PLAY_CARD id=147 target=hero 'Malfurion Stormrage'(131) // name='Healing Touch' cost=3 text='Restore 8 Health.'
+--> Titou/Malfurion Stormrage Mana=1 Hlt=30 Att=0 Arm=0 Hnd=3 Dck=25 Min=0 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=30 Att=0 Arm=2 Hnd=5 Dck=25 Min=0 Sec=0
+
+NEXT_TURN
+
+Didier USE_HERO_POWER power=''Armor Up!' power'
+--> Didier/Garrosh Hellscream Mana=0 Hlt=30 Att=0 Arm=4 Hnd=6 Dck=24 Min=0 Sec=0
+--> Titou/Malfurion Stormrage Mana=1 Hlt=30 Att=0 Arm=0 Hnd=3 Dck=25 Min=0 Sec=0
+
+NEXT_TURN
+
+Titou PLAY_CARD id=144 position=0 // name='Ironbeak Owl' cost=2 text='Battlecry: Silence a minion.'
+--> Titou/Malfurion Stormrage Mana=1 Hlt=30 Att=0 Arm=0 Hnd=3 Dck=24 Min=1 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=30 Att=0 Arm=4 Hnd=6 Dck=24 Min=0 Sec=0
+
+NEXT_TURN
+
+Didier PLAY_CARD id=110 // name='Heroic Strike' cost=2 text='Give your hero +4 Attack this turn.'
+--> Didier/Garrosh Hellscream Mana=1 Hlt=30 Att=0 Arm=4 Hnd=6 Dck=23 Min=0 Sec=0
+--> Titou/Malfurion Stormrage Mana=1 Hlt=30 Att=0 Arm=0 Hnd=3 Dck=24 Min=1 Sec=0
+
+Didier ATTACK attacker=hero 'Garrosh Hellscream'(100) attacked=hero 'Malfurion Stormrage'(131)
+--> Didier/Garrosh Hellscream Mana=1 Hlt=30 Att=0 Arm=4 Hnd=6 Dck=23 Min=0 Sec=0
+--> Titou/Malfurion Stormrage Mana=1 Hlt=26 Att=0 Arm=0 Hnd=3 Dck=24 Min=1 Sec=0
+
+Didier PLAY_CARD id=102 // name='Upgrade!' cost=1 text='If you have a weapon, give it +1/+1. Otherwise equip a 1/3 weapon.'
+--> Didier/Garrosh Hellscream Mana=0 Hlt=30 Att=0 Arm=4 Hnd=5 Dck=23 Min=0 Sec=0
+--> Titou/Malfurion Stormrage Mana=1 Hlt=26 Att=0 Arm=0 Hnd=3 Dck=24 Min=1 Sec=0
+
+NEXT_TURN
+
+Titou PLAY_CARD id=150 position=1 // name='Thrallmar Farseer' cost=3 text='Windfury'
+--> Titou/Malfurion Stormrage Mana=1 Hlt=26 Att=0 Arm=0 Hnd=3 Dck=23 Min=2 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=30 Att=0 Arm=4 Hnd=5 Dck=23 Min=0 Sec=0
+
+Titou PLAY_CARD id=138 position=0 // name='Leper Gnome' cost=1 text='Deathrattle: Deal 2 damage to the enemy hero.'
+--> Titou/Malfurion Stormrage Mana=0 Hlt=26 Att=0 Arm=0 Hnd=2 Dck=23 Min=3 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=30 Att=0 Arm=4 Hnd=5 Dck=23 Min=0 Sec=0
+
+Titou ATTACK attacker=minion 'Ironbeak Owl'(144) attacked=hero 'Garrosh Hellscream'(100)
+--> Titou/Malfurion Stormrage Mana=0 Hlt=26 Att=0 Arm=0 Hnd=2 Dck=23 Min=2 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=30 Att=0 Arm=2 Hnd=5 Dck=23 Min=0 Sec=0
+
+NEXT_TURN
+
+Didier ATTACK attacker=hero 'Garrosh Hellscream'(100) attacked=minion 'Thrallmar Farseer'(150)
+--> Didier/Garrosh Hellscream Mana=4 Hlt=30 Att=0 Arm=0 Hnd=6 Dck=22 Min=0 Sec=0
+--> Titou/Malfurion Stormrage Mana=0 Hlt=26 Att=0 Arm=0 Hnd=2 Dck=23 Min=2 Sec=0
+
+Didier USE_HERO_POWER power=''Armor Up!' power'
+--> Didier/Garrosh Hellscream Mana=2 Hlt=30 Att=0 Arm=2 Hnd=6 Dck=22 Min=0 Sec=0
+--> Titou/Malfurion Stormrage Mana=0 Hlt=26 Att=0 Arm=0 Hnd=2 Dck=23 Min=2 Sec=0
+
+Didier PLAY_CARD id=104 target=minion 'Thrallmar Farseer'(150) // name='Execute' cost=1 text='Destroy a damaged enemy minion.'
+--> Didier/Garrosh Hellscream Mana=1 Hlt=30 Att=0 Arm=2 Hnd=5 Dck=22 Min=0 Sec=0
+--> Titou/Malfurion Stormrage Mana=0 Hlt=26 Att=0 Arm=0 Hnd=2 Dck=23 Min=1 Sec=0
+
+NEXT_TURN
+
+Titou USE_HERO_POWER power=''Shapeshift' power'
+--> Titou/Malfurion Stormrage Mana=3 Hlt=26 Att=0 Arm=1 Hnd=3 Dck=22 Min=1 Sec=0
+--> Didier/Garrosh Hellscream Mana=1 Hlt=30 Att=0 Arm=2 Hnd=5 Dck=22 Min=0 Sec=0
+
+Titou ATTACK attacker=hero 'Malfurion Stormrage'(131) attacked=hero 'Garrosh Hellscream'(100)
+--> Titou/Malfurion Stormrage Mana=3 Hlt=26 Att=0 Arm=0 Hnd=3 Dck=22 Min=1 Sec=0
+--> Didier/Garrosh Hellscream Mana=1 Hlt=30 Att=0 Arm=1 Hnd=5 Dck=22 Min=0 Sec=0
+
+Titou PLAY_CARD id=140 choice='Deal 3 damage to a minion' target=minion 'Leper Gnome'(138) // name='Wrath' cost=2 text='Choose One - Deal 3 damage to a minion; or 1 damage and draw a card.'
+--> Titou/Malfurion Stormrage Mana=1 Hlt=26 Att=0 Arm=0 Hnd=2 Dck=22 Min=0 Sec=0
+--> Didier/Garrosh Hellscream Mana=1 Hlt=28 Att=0 Arm=1 Hnd=5 Dck=22 Min=0 Sec=0
+
+NEXT_TURN
+
+Didier PLAY_CARD id=116 position=0 // name='Tauren Warrior' cost=3 text='Taunt. Enrage: +3 Attack'
+--> Didier/Garrosh Hellscream Mana=2 Hlt=28 Att=0 Arm=1 Hnd=5 Dck=21 Min=1 Sec=0
+--> Titou/Malfurion Stormrage Mana=1 Hlt=26 Att=0 Arm=0 Hnd=2 Dck=22 Min=0 Sec=0
+
+Didier PLAY_CARD id=109 // name='Heroic Strike' cost=2 text='Give your hero +4 Attack this turn.'
+--> Didier/Garrosh Hellscream Mana=0 Hlt=28 Att=0 Arm=1 Hnd=4 Dck=21 Min=1 Sec=0
+--> Titou/Malfurion Stormrage Mana=1 Hlt=26 Att=0 Arm=0 Hnd=2 Dck=22 Min=0 Sec=0
+
+Didier ATTACK attacker=hero 'Garrosh Hellscream'(100) attacked=hero 'Malfurion Stormrage'(131)
+--> Didier/Garrosh Hellscream Mana=0 Hlt=28 Att=0 Arm=1 Hnd=4 Dck=21 Min=1 Sec=0
+--> Titou/Malfurion Stormrage Mana=1 Hlt=21 Att=0 Arm=0 Hnd=2 Dck=22 Min=0 Sec=0
+
+NEXT_TURN
+
+Titou PLAY_CARD id=139 choice='Deal 3 damage to a minion' target=minion 'Tauren Warrior'(116) // name='Wrath' cost=2 text='Choose One - Deal 3 damage to a minion; or 1 damage and draw a card.'
+--> Titou/Malfurion Stormrage Mana=4 Hlt=21 Att=0 Arm=0 Hnd=2 Dck=21 Min=0 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=28 Att=0 Arm=1 Hnd=4 Dck=21 Min=0 Sec=0
+
+Titou USE_HERO_POWER power=''Shapeshift' power'
+--> Titou/Malfurion Stormrage Mana=2 Hlt=21 Att=0 Arm=1 Hnd=2 Dck=21 Min=0 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=28 Att=0 Arm=1 Hnd=4 Dck=21 Min=0 Sec=0
+
+Titou PLAY_CARD id=145 position=0 // name='Acidic Swamp Ooze' cost=2 text='Battlecry: Destroy your opponent's weapon.'
+--> Titou/Malfurion Stormrage Mana=0 Hlt=21 Att=0 Arm=1 Hnd=1 Dck=21 Min=1 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=28 Att=0 Arm=1 Hnd=4 Dck=21 Min=0 Sec=0
+
+Titou ATTACK attacker=hero 'Malfurion Stormrage'(131) attacked=hero 'Garrosh Hellscream'(100)
+--> Titou/Malfurion Stormrage Mana=0 Hlt=21 Att=0 Arm=1 Hnd=1 Dck=21 Min=1 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=28 Att=0 Arm=0 Hnd=4 Dck=21 Min=0 Sec=0
+
+NEXT_TURN
+
+Didier USE_HERO_POWER power=''Armor Up!' power'
+--> Didier/Garrosh Hellscream Mana=4 Hlt=28 Att=0 Arm=2 Hnd=5 Dck=20 Min=0 Sec=0
+--> Titou/Malfurion Stormrage Mana=0 Hlt=21 Att=0 Arm=1 Hnd=1 Dck=21 Min=1 Sec=0
+
+Didier PLAY_CARD id=122 position=0 // name='Kor'kron Elite' cost=4 text='Charge'
+--> Didier/Garrosh Hellscream Mana=0 Hlt=28 Att=0 Arm=2 Hnd=4 Dck=20 Min=1 Sec=0
+--> Titou/Malfurion Stormrage Mana=0 Hlt=21 Att=0 Arm=1 Hnd=1 Dck=21 Min=1 Sec=0
+
+Didier PLAY_CARD id=101 target=minion 'Kor'kron Elite'(122) // name='Inner Rage' cost=0 text='Deal 1 damage to a minion and give it +2 Attack.'
+--> Didier/Garrosh Hellscream Mana=0 Hlt=28 Att=0 Arm=2 Hnd=3 Dck=20 Min=1 Sec=0
+--> Titou/Malfurion Stormrage Mana=0 Hlt=21 Att=0 Arm=1 Hnd=1 Dck=21 Min=1 Sec=0
+
+Didier ATTACK attacker=minion 'Kor'kron Elite'(122) attacked=hero 'Malfurion Stormrage'(131)
+--> Didier/Garrosh Hellscream Mana=0 Hlt=28 Att=0 Arm=2 Hnd=3 Dck=20 Min=1 Sec=0
+--> Titou/Malfurion Stormrage Mana=0 Hlt=16 Att=0 Arm=0 Hnd=1 Dck=21 Min=1 Sec=0
+
+NEXT_TURN
+
+Titou PLAY_CARD id=134 target=minion 'Kor'kron Elite'(122) // name='Naturalize' cost=1 text='Destroy a minion. Your opponent draws 2 cards.'
+--> Titou/Malfurion Stormrage Mana=6 Hlt=16 Att=0 Arm=0 Hnd=1 Dck=20 Min=1 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=28 Att=0 Arm=2 Hnd=5 Dck=18 Min=0 Sec=0
+
+Titou USE_HERO_POWER power=''Shapeshift' power'
+--> Titou/Malfurion Stormrage Mana=4 Hlt=16 Att=0 Arm=1 Hnd=1 Dck=20 Min=1 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=28 Att=0 Arm=2 Hnd=5 Dck=18 Min=0 Sec=0
+
+Titou ATTACK attacker=minion 'Acidic Swamp Ooze'(145) attacked=hero 'Garrosh Hellscream'(100)
+--> Titou/Malfurion Stormrage Mana=4 Hlt=16 Att=0 Arm=1 Hnd=1 Dck=20 Min=1 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=27 Att=0 Arm=0 Hnd=5 Dck=18 Min=0 Sec=0
+
+Titou ATTACK attacker=hero 'Malfurion Stormrage'(131) attacked=hero 'Garrosh Hellscream'(100)
+--> Titou/Malfurion Stormrage Mana=4 Hlt=16 Att=0 Arm=1 Hnd=1 Dck=20 Min=1 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=26 Att=0 Arm=0 Hnd=5 Dck=18 Min=0 Sec=0
+
+NEXT_TURN
+
+Didier PLAY_CARD id=123 position=0 // name='Kor'kron Elite' cost=4 text='Charge'
+--> Didier/Garrosh Hellscream Mana=3 Hlt=26 Att=0 Arm=0 Hnd=5 Dck=17 Min=1 Sec=0
+--> Titou/Malfurion Stormrage Mana=4 Hlt=16 Att=0 Arm=1 Hnd=1 Dck=20 Min=1 Sec=0
+
+Didier ATTACK attacker=minion 'Kor'kron Elite'(123) attacked=hero 'Malfurion Stormrage'(131)
+--> Didier/Garrosh Hellscream Mana=3 Hlt=26 Att=0 Arm=0 Hnd=5 Dck=17 Min=1 Sec=0
+--> Titou/Malfurion Stormrage Mana=4 Hlt=13 Att=0 Arm=0 Hnd=1 Dck=20 Min=1 Sec=0
+
+Didier PLAY_CARD id=114 position=1 // name='Frothing Berserker' cost=3 text='Whenever a minion takes damage, gain +1 Attack.'
+--> Didier/Garrosh Hellscream Mana=0 Hlt=26 Att=0 Arm=0 Hnd=4 Dck=17 Min=2 Sec=0
+--> Titou/Malfurion Stormrage Mana=4 Hlt=13 Att=0 Arm=0 Hnd=1 Dck=20 Min=1 Sec=0
+
+NEXT_TURN
+
+Titou ATTACK attacker=minion 'Acidic Swamp Ooze'(145) attacked=minion 'Kor'kron Elite'(123)
+--> Titou/Malfurion Stormrage Mana=8 Hlt=13 Att=0 Arm=0 Hnd=2 Dck=19 Min=0 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=26 Att=0 Arm=0 Hnd=4 Dck=17 Min=1 Sec=0
+
+Titou USE_HERO_POWER power=''Shapeshift' power'
+--> Titou/Malfurion Stormrage Mana=6 Hlt=13 Att=0 Arm=1 Hnd=2 Dck=19 Min=0 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=26 Att=0 Arm=0 Hnd=4 Dck=17 Min=1 Sec=0
+
+Titou ATTACK attacker=hero 'Malfurion Stormrage'(131) attacked=hero 'Garrosh Hellscream'(100)
+--> Titou/Malfurion Stormrage Mana=6 Hlt=13 Att=0 Arm=1 Hnd=2 Dck=19 Min=0 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=25 Att=0 Arm=0 Hnd=4 Dck=17 Min=1 Sec=0
+
+Titou PLAY_CARD id=136 // name='Claw' cost=1 text='Give your hero +2 Attack this turn and 2 Armor.'
+--> Titou/Malfurion Stormrage Mana=5 Hlt=13 Att=0 Arm=3 Hnd=1 Dck=19 Min=0 Sec=0
+--> Didier/Garrosh Hellscream Mana=0 Hlt=25 Att=0 Arm=0 Hnd=4 Dck=17 Min=1 Sec=0
+
+NEXT_TURN
+
+Didier PLAY_CARD id=120 position=1 // name='Cult Master' cost=4 text='Whenever one of your other minions dies, draw a card.'
+--> Didier/Garrosh Hellscream Mana=4 Hlt=25 Att=0 Arm=0 Hnd=4 Dck=16 Min=2 Sec=0
+--> Titou/Malfurion Stormrage Mana=5 Hlt=13 Att=0 Arm=3 Hnd=1 Dck=19 Min=0 Sec=0
+
+Didier PLAY_CARD id=113 position=1 // name='Acolyte of Pain' cost=3 text='Whenever this minion takes damage, draw a card.'
+--> Didier/Garrosh Hellscream Mana=1 Hlt=25 Att=0 Arm=0 Hnd=3 Dck=16 Min=3 Sec=0
+--> Titou/Malfurion Stormrage Mana=5 Hlt=13 Att=0 Arm=3 Hnd=1 Dck=19 Min=0 Sec=0
+
+Didier ATTACK attacker=minion 'Frothing Berserker'(114) attacked=hero 'Malfurion Stormrage'(131)
+--> Didier/Garrosh Hellscream Mana=1 Hlt=25 Att=0 Arm=0 Hnd=3 Dck=16 Min=3 Sec=0
+--> Titou/Malfurion Stormrage Mana=5 Hlt=12 Att=0 Arm=0 Hnd=1 Dck=19 Min=0 Sec=0
+
+NEXT_TURN
+
+Titou USE_HERO_POWER power=''Shapeshift' power'
+--> Titou/Malfurion Stormrage Mana=7 Hlt=12 Att=0 Arm=1 Hnd=2 Dck=18 Min=0 Sec=0
+--> Didier/Garrosh Hellscream Mana=1 Hlt=25 Att=0 Arm=0 Hnd=3 Dck=16 Min=3 Sec=0
+
+Titou ATTACK attacker=hero 'Malfurion Stormrage'(131) attacked=minion 'Acolyte of Pain'(113)
+--> Titou/Malfurion Stormrage Mana=7 Hlt=12 Att=0 Arm=0 Hnd=2 Dck=18 Min=0 Sec=0
+--> Didier/Garrosh Hellscream Mana=1 Hlt=25 Att=0 Arm=0 Hnd=4 Dck=15 Min=3 Sec=0
+
+NEXT_TURN
+
+Didier PLAY_CARD id=126 position=2 // name='Gurubashi Berserker' cost=5 text='Whenever this minion takes damage, gain +3 Attack.'
+--> Didier/Garrosh Hellscream Mana=4 Hlt=25 Att=0 Arm=0 Hnd=4 Dck=14 Min=4 Sec=0
+--> Titou/Malfurion Stormrage Mana=7 Hlt=12 Att=0 Arm=0 Hnd=2 Dck=18 Min=0 Sec=0
+
+Didier PLAY_CARD id=119 position=3 // name='Arathi Weaponsmith' cost=4 text='Battlecry: Equip a 2/2 weapon.'
+--> Didier/Garrosh Hellscream Mana=0 Hlt=25 Att=0 Arm=0 Hnd=3 Dck=14 Min=5 Sec=0
+--> Titou/Malfurion Stormrage Mana=7 Hlt=12 Att=0 Arm=0 Hnd=2 Dck=18 Min=0 Sec=0
+
+Didier ATTACK attacker=minion 'Acolyte of Pain'(113) attacked=hero 'Malfurion Stormrage'(131)
+--> Didier/Garrosh Hellscream Mana=0 Hlt=25 Att=0 Arm=0 Hnd=3 Dck=14 Min=5 Sec=0
+--> Titou/Malfurion Stormrage Mana=7 Hlt=11 Att=0 Arm=0 Hnd=2 Dck=18 Min=0 Sec=0
+
+Didier ATTACK attacker=hero 'Garrosh Hellscream'(100) attacked=hero 'Malfurion Stormrage'(131)
+--> Didier/Garrosh Hellscream Mana=0 Hlt=25 Att=0 Arm=0 Hnd=3 Dck=14 Min=5 Sec=0
+--> Titou/Malfurion Stormrage Mana=7 Hlt=9 Att=0 Arm=0 Hnd=2 Dck=18 Min=0 Sec=0
+
+Didier ATTACK attacker=minion 'Frothing Berserker'(114) attacked=hero 'Malfurion Stormrage'(131)
+--> Didier/Garrosh Hellscream Mana=0 Hlt=25 Att=0 Arm=0 Hnd=3 Dck=14 Min=5 Sec=0
+--> Titou/Malfurion Stormrage Mana=7 Hlt=4 Att=0 Arm=0 Hnd=2 Dck=18 Min=0 Sec=0
+
+Didier ATTACK attacker=minion 'Cult Master'(120) attacked=hero 'Malfurion Stormrage'(131)
+--> Didier/Garrosh Hellscream Mana=0 Hlt=25 Att=0 Arm=0 Hnd=3 Dck=14 Min=5 Sec=0
+--> Titou/Malfurion Stormrage Mana=7 Hlt=0 Att=0 Arm=0 Hnd=2 Dck=18 Min=0 Sec=0
+
+Didier wins
+Titou looses
